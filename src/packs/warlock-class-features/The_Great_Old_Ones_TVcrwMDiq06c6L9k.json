@@ -1,0 +1,85 @@
+{
+  "name": "The Great Old Ones",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Great Old Ones are ageless beings from beyond time and space, directly responsible for the spread of the Chaos and the shattered worlds as they stand today. Even in defeat, they continue to sow seeds of destruction, offering their power to any willing or mad enough to accept it.</p>\n<p><strong>Anathema</strong> Failing to challenge the beliefs and teachings of an agent of the divine is anathema to the Great Old Ones. This does not require you to fight such individuals, or to reveal your true nature, only to offer an alternative or contrary stance.</p>\n<p><strong>Patron Spells cantrip</strong>: @UUID[Compendium.pf2e.spells-srd.Item.gISYsBFby1TiXfBt]; <strong>1st</strong>: @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]; <strong>2nd</strong>: @UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv]; <strong>3rd</strong>: @UUID[Compendium.pf2e.spells-srd.Item.K2WpC3FFoHrqX9Q5]; <strong>4th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]; <strong>5th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.2w4OpAGihn1JSHFD]; <strong>6th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.8Umt1AzYfFbC4fui]; <strong>7th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs]; <strong>8th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.8AMvNVOUEtxBCDvJ]; <strong>9th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.ItZgGznUBhgWBwFG]</p>\n<p><strong>Weapon</strong>: You are trained with the starknife.</p>\n<p><strong>Aberrant Whispers (1st)</strong>: You channel your patron's maddening whispers at an enemy. You gain the @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.qFWG1sdrGmSQ778s] warlock feat.</p>\n<p><strong>Signature Patron Spell (5th)</strong>: During your daily preparations, you can choose one patron spell in your spell repertoire. That spell is a signature spell for you until the next time you make your daily preparations.</p>\n<p><strong>Telepath (9th)</strong>: You can communicate telepathically with creatures within 60 feet with whom you share a language. The communication is two-way once you establish it, so a creature you contact can also communicate with you. Once per day, when an ally you can communicate telepathically with fails a Will save, you can roll your own Will save as a reaction and substitute it for the ally's save. This is a fortune effect.</p>\n<p><strong>Resolve (15th)</strong>: You gain the resolve warlock class feature.</p>\n<p>At 17th level, your unbelievable training grants you mental resiliency. Your proficiency rank for Will saves increases to legendary. When you roll a success at a Will save, you get a critical success. When you roll a critical failure at a Will save, you get a failure instead. When you fail a Will save against a damaging effect, you take half damage.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.weapon-base-starknife.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 10,
+              "value": 1
+            },
+            {
+              "start": 11,
+              "value": 2
+            }
+          ],
+          "field": "actor|level"
+        }
+      }
+    ],
+    "slug": "the-great-old-ones",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "otherworldly-patron"
+      ],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "TVcrwMDiq06c6L9k",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708717537972,
+    "modifiedTime": 1708741628747,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!TVcrwMDiq06c6L9k"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Warlock Invocations",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Invocations are special cantrips that you can use as often as you like, provided you have a spell slot available of the right level. Invocations are in addition to the cantrips you choose from the occult list. Generally, only feats can give you more invocations. Unlike other cantrips, you can't swap out invocations gained from warlock feats at a later level, unless you swap out the specific feat via retraining.</p>\n<p>To cast an invocation, you must have at least 1 spell slot remaining of its base level or higher. Unlike other cantrips, you choose to which level you will heighten an invocation when you cast it. If you run out of spell slots of that level, any ongoing effects from your invocation at that level end immediately. You can cast only one invocation each turn, and you can only have one invocation of each level active at a time. You can Dismiss an invocation as part of the same action required to Cast a Spell at that level.</p>\n<p>The three types of invocations are channel, essence, and invoke. Channel invocations add an effect to your energy blast. Essence invocations change the base form of your energy blast in some way. Invoke invocations call directly on otherworldly power to mimic some spells and special effects.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-invocations",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "ijnf2KlhziVs2pfo",
+  "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+  "folder": null,
+  "sort": 2300000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708095312316,
+    "modifiedTime": 1708786912420,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!ijnf2KlhziVs2pfo"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "The Merciless Sea",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>For as long as land-bound creatures have traveled the waters of their worlds, they have paid respect to the Merciless Sea. Those who call on her even while away from her shores appreciate the raw strength of cold, torrential, unforgiving magic.</p>\n<p><strong>Anathema</strong> Failing to carry some part of the sea with you and regularly thanking her for her gifts is anathema to the Merciless Sea. When you have a reasonable opportunity to return to the sea, even for a day, you must make every effort to do so.</p>\n<p><strong>Weapon</strong>: You are trained with the trident.</p>\n<p><strong>Patron Spells cantrip</strong>: @UUID[Compendium.pf2e.spells-srd.Item.gYjPm7YwGtEa1oxh]; <strong>1st</strong>: @UUID[Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f]; <strong>2nd</strong>: @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]; <strong>3rd</strong>: @UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]; <strong>4th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.pkcOby5prOausy1k]; <strong>5th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.z2mfh3oPnfYqXflY]; <strong>6th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.TDNlDWbYb58Y55Da]; <strong>7th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.bVtkBJvGLP69qVGI]; <strong>8th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.wi405lBjPcbF1DeR]; <strong>9th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.r4HLQcYwB62bTayl]</p>\n<p><strong>Tidal Surge (1st)</strong>: You can create a cascade of water out of nothing. You gain the @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.B4DkzpPrLCbwBMMU] warlock feat.</p>\n<p><strong>Sea Legs (5th)</strong>: You learn how to bend with the movement of a ship, even when on land. Your proficiency ranks in Reflex saves, light armor, and unarmored defense increase to expert.</p>\n<p>At 11th level, your proficiency rank in Reflex saves increases to master. When you roll a success at a Reflex save, you get a critical success instead.</p>\n<p>At 13th level, your proficiency ranks in light armor and unarmored defense increase to master.</p>\n<p><strong>Downpour (9th)</strong>: You gain the @UUID[Compendium.pf2e.spells-srd.Item.K4LXpaBWrGy6jIER] focus spell. Increase the number of Focus Points in your focus pool by 1.</p>\n<p><strong>Bounty of the Sea (15th)</strong>: When you are within at least 1 inch of water, you can spend 1 Focus Point and 2 actions with the concentration, healing, and interact traits to gain fast healing 5 for 1 minute. This fast healing ends if you leave the water.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.weapon-base-trident.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 10,
+              "value": 1
+            },
+            {
+              "start": 11,
+              "value": 2
+            }
+          ],
+          "field": "actor|level"
+        }
+      }
+    ],
+    "slug": "the-merciless-sea",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "otherworldly-patron"
+      ],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "5XmoKFyjbQxboYcK",
+  "img": "icons/magic/water/wave-water-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708722865879,
+    "modifiedTime": 1708739770201,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!5XmoKFyjbQxboYcK"
+}

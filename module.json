@@ -1,0 +1,114 @@
+{
+  "id": "warlock-pf2e",
+  "title": "Warlock-PF2E",
+  "description": "__DESCRIPTION__",
+  "version": "__VERSION__",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Richard Robertson",
+      "url": "https://github.com/RichardRobertson"
+    }
+  ],
+  "esmodules": [
+    "scripts/index.mjs"
+  ],
+  "packs": [
+    {
+      "name": "warlock-actions",
+      "label": "Warlock Actions",
+      "path": "/packs/warlock-actions",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "warlock-class",
+      "label": "Warlock Class",
+      "path": "/packs/warlock-class",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "warlock-class-features",
+      "label": "Warlock Class Features",
+      "path": "/packs/warlock-class-features",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "warlock-effects",
+      "label": "Warlock Effects",
+      "path": "/packs/warlock-effects",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "warlock-feats",
+      "label": "Warlock Feats",
+      "path": "/packs/warlock-feats",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "warlock-macros",
+      "label": "Warlock Macros",
+      "path": "/packs/warlock-macros",
+      "type": "Macro",
+      "system": "pf2e"
+    },
+    {
+      "name": "warlock-spells",
+      "label": "Warlock Spells",
+      "path": "/packs/warlock-spells",
+      "type": "Item",
+      "system": "pf2e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Warlock",
+      "sorting": "a",
+      "packs": [
+        "warlock-actions",
+        "warlock-class",
+        "warlock-class-features",
+        "warlock-effects",
+        "warlock-feats",
+        "warlock-macros",
+        "warlock-spells"
+      ]
+    }
+  ],
+  "url": "__REPO__",
+  "manifest": "__MANIFEST__",
+  "download": "__DOWNLOAD__",
+  "readme": "README.md",
+  "license": "LICENSE.md",
+  "flags": {
+    "warlock-pf2e": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "warlock": "Warlock"
+        },
+        "spellTraits": {
+          "warlock": "Warlock",
+          "invocation": "Invocation"
+        }
+      }
+    }
+  },
+  "relationships": {
+    "system": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "verified": "5.13.4"
+        }
+      }
+    ]
+  }
+}

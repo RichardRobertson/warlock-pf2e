@@ -1,0 +1,85 @@
+{
+  "name": "Invoke the Fog",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirement</strong> You have at least one 3rd-level or higher spell slot remaining.</p>\n<p>You call on a living fog to obscure sight in an area. All creatures within the mist become concealed, and all creatures outside the mist become concealed to creatures within it. You can Dismiss the cloud.</p>"
+    },
+    "rules": [],
+    "slug": "invoke-the-fog",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "invocation",
+        "warlock",
+        "water"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "XswGiGdUtqsvaMcF",
+  "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708176465646,
+    "modifiedTime": 1708650180027,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!XswGiGdUtqsvaMcF"
+}

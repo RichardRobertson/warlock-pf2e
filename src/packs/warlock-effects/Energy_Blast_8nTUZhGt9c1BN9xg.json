@@ -1,0 +1,103 @@
+{
+  "name": "Energy Blast",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your hands take on an eerie purple glow in the vague shape of a ranged weapon with which you are trained. In your hands, the weapon gains the agile and free-hand traits, if it does not already have them, and you add half your Charisma modifier to damage rolls with it (this counts as the propulsive trait). You can Dismiss your energy blast.</p>\n<p>Your energy blast does not use ammunition, but you must still spend the listed number of actions to \"reload\" it. You can spend an action to use your occult spell attack roll with your energy blast until the end of your next turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "filter": [
+            {
+              "gte": [
+                "self:level",
+                "item:level"
+              ]
+            },
+            {
+              "or": [
+                "feat:essence-weapon",
+                "item:ranged",
+                "item:trait:thrown"
+              ]
+            },
+            {
+              "or": []
+            }
+          ],
+          "itemType": "weapon"
+        },
+        "flag": "weapon"
+      },
+      {
+        "key": "Strike",
+        "damage": {
+          "base": {
+            "damageType": "force"
+          }
+        }
+      }
+    ],
+    "slug": "spell-effect-energy-blast",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1707879394151,
+    "modifiedTime": 1708786181992,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_id": "8nTUZhGt9c1BN9xg",
+  "sort": 200000,
+  "_key": "!items!8nTUZhGt9c1BN9xg"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Never-Ending Breath",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You double the amount of time you can hold your breath, Sustain an Activation, and Sustain a Spell. Once per day, you can ignore the effects the fatigued condition for up to 1 hour.</p>"
+    },
+    "rules": [],
+    "slug": "never-ending-breath",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "OfK5mO9cQvtZvj0E",
+  "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+  "folder": null,
+  "sort": 2200000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708652158637,
+    "modifiedTime": 1708790296062,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!OfK5mO9cQvtZvj0E"
+}

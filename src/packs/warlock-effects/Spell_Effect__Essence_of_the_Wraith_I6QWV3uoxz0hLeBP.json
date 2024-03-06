@@ -1,0 +1,79 @@
+{
+  "name": "Spell Effect: Essence of the Wraith",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your energy blast becomes translucent and ghostly, and it can affect material and incorporeal creatures and objects. It gains the effects of the ghost touch property rune.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          {
+            "or": [
+              "item:slug:energy-blast",
+              "item:slug:eldritch-weapon"
+            ]
+          }
+        ],
+        "mode": "add",
+        "property": "property-runes",
+        "value": "ghost-touch"
+      }
+    ],
+    "slug": "spell-effect-essence-of-the-wraith",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "I6QWV3uoxz0hLeBP",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708654681063,
+    "modifiedTime": 1708786385018,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!I6QWV3uoxz0hLeBP"
+}

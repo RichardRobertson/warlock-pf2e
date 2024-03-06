@@ -1,0 +1,64 @@
+{
+  "name": "Spell Effect: Invoke the Unknown",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your patron shields you from even the most powerful mortal divinations. Detection, revelation, and scrying effects pass right over you, your possessions, and your auras, detecting nothing unless the detecting effect has a counteract level of 20 or higher. For example, @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl] would still detect other magic in the area but not any magic on you, @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki] wouldn't reveal you, @UUID[Compendium.pf2e.spells-srd.Item.LQzlKbYjZSMFQawP] or @UUID[Compendium.pf2e.spells-srd.Item.r784cIz17eWujtQj] wouldn't find you, and so on.</p>"
+    },
+    "rules": [],
+    "slug": "spell-effect-invoke-the-unknown",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "duration": {
+      "value": 8,
+      "unit": "hours",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "pX3IInhP1jcXkKgC",
+  "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708654681063,
+    "modifiedTime": 1708786385018,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!pX3IInhP1jcXkKgC"
+}

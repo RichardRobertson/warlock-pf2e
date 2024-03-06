@@ -1,0 +1,81 @@
+{
+  "name": "Weapon Expertise (Warlock)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Training and magic improved your weapon technique. Your proficiency rank for simple weapons and your patron's weapon increases to expert. If you have the eldritch weapon pact boon, your proficiency rank for that weapon increases to master.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.eldritch-weapon.rank",
+        "value": 3,
+        "predicate": [
+          "feature:eldritch-weapon"
+        ]
+      }
+    ],
+    "slug": "warlock-weapon-expertise",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 11
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "simple": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "_id": "ary4OJz9wsxffrNj",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "folder": null,
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708098107916,
+    "modifiedTime": 1708705878470,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!ary4OJz9wsxffrNj"
+}

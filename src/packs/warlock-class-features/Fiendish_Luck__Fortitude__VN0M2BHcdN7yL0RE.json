@@ -1,0 +1,88 @@
+{
+  "name": "Fiendish Luck (Fortitude)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your proficiency rank for Fortitude increases to master. When you roll a successful save, you get a critical success instead.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "fortitude",
+        "text": "PF2E.SpecificRule.SaveSuccessToCriticalSuccess.Fortitude",
+        "outcome": [
+          "success"
+        ]
+      },
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "fortitude",
+        "adjustment": {
+          "success": "one-degree-better"
+        }
+      }
+    ],
+    "slug": "fiendish-luck-fortitude",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fortune",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "fortitude": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "_id": "VN0M2BHcdN7yL0RE",
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "folder": null,
+  "sort": 1800000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708702441719,
+    "modifiedTime": 1708704450688,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!VN0M2BHcdN7yL0RE"
+}

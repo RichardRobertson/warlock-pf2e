@@ -1,0 +1,64 @@
+{
+  "name": "Invoke Entropy",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You learn the @UUID[Compendium.warlock-pf2e.warlock-spells.Item.m49SIc3TjduTl7Pr] invocation, which protects you from ranged attacks.</p>"
+    },
+    "rules": [],
+    "slug": "invoke-entropy",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "kspXT5iJPi4JM82Y",
+  "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+  "folder": null,
+  "sort": 3400000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708647949650,
+    "modifiedTime": 1708790296062,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!kspXT5iJPi4JM82Y"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Drain Familiar",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You Cast a Spell on your previous turn and haven't acted yet on your turn.</p>\n<p>You expend the power stored in your familiar. During your turn, you regain the ability to cast the spell you Cast on your previous turn, without spending a spell slot. You must Cast that Spell and meet its other requirements this turn or lose it.</p>"
+    },
+    "rules": [],
+    "slug": "drain-familiar",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "occult",
+        "warlock"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "category": "familiar",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/magic/control/debuff-energy-hold-pink.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708095632724,
+    "modifiedTime": 1708786071894,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_id": "zQcSWHhAauLh31uZ",
+  "sort": 0,
+  "_key": "!items!zQcSWHhAauLh31uZ"
+}

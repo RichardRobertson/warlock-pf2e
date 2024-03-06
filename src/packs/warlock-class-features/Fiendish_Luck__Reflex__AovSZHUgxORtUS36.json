@@ -1,0 +1,90 @@
+{
+  "name": "Fiendish Luck (Reflex)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your proficiency rank for Reflex increases to master. When you roll a successful save, you get a critical success instead.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "reflex",
+        "text": "PF2E.SpecificRule.SaveSuccessToCriticalSuccess.Reflex",
+        "outcome": [
+          "success"
+        ]
+      },
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "reflex",
+        "adjustment": {
+          "success": "one-degree-better"
+        }
+      }
+    ],
+    "slug": "fiendish-luck-reflex",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fortune",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "reflex": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708702441719,
+    "modifiedTime": 1708703189680,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_id": "AovSZHUgxORtUS36",
+  "sort": 1600000,
+  "_key": "!items!AovSZHUgxORtUS36"
+}

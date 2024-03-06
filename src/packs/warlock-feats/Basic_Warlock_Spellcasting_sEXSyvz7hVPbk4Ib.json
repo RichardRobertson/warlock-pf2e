@@ -1,0 +1,68 @@
+{
+  "name": "Basic Warlock Spellcasting",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.DOc3Pf8wmVxanTIv] benefits. Each time you gain a spell slot of a new level from the warlock archetype, add a common occult spell or another spell you learned or discovered to your repertoire, of the appropriate spell level.</p>"
+    },
+    "rules": [],
+    "slug": "basic-warlock-spellcasting",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Warlock Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "sEXSyvz7hVPbk4Ib",
+  "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+  "folder": null,
+  "sort": 4900000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708786770322,
+    "modifiedTime": 1708790296062,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!sEXSyvz7hVPbk4Ib"
+}

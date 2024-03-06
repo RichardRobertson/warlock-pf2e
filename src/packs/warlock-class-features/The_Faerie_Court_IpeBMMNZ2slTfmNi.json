@@ -1,0 +1,85 @@
+{
+  "name": "The Faerie Court",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The first group to face off against the Chaos when it attempted to destroy reality, the Faerie Court has since grown enough to rival the archfey who denied those attacks. While still a collection of fey from wildly different areas of the Overrealm, the court gets along well enough through its various checks and balances.</p>\n<p><strong>Anathema</strong> Despoiling natural places and Flagrantly disrespecting an animal or fey that is not hostile toward you is anathema to the Faerie Court.</p>\n<p><strong>Weapon</strong>: You are trained with all bows.</p>\n<p><strong>Patron Spells cantrip</strong>: @UUID[Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a]; <strong>1st</strong>: @UUID[Compendium.pf2e.spells-srd.Item.hs7h8f4Z1ZNdUt3s]; <strong>2nd</strong>: @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]; <strong>3rd</strong>: @UUID[Compendium.pf2e.spells-srd.Item.IihxWhRfpsBgQ5jS]; <strong>4th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.zR67Rt3UMHKC5evy]; <strong>5th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW]; <strong>6th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.WPXzPl7YbMEIGWfi]; <strong>7th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.O6VQC1Bs4aSYDa6R]; <strong>8th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.Jvyy6oVIQsD34MHB]; <strong>9th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.qDjeG6dxT4aEEC6J]</p>\n<p><strong>Fey Beguiler (1st)</strong>: You can turn your words into a friendly offer or a deadly threat. You gain the Beguiler warlock feat. When you cast an invocation or patron spell, you also cause yourself or one target to be concealed for 1 round. Such obvious concealment can't be used to Hide.</p>\n<p><strong>Fey Disappearance (5th)</strong>: You gain the @UUID[Compendium.pf2e.spells-srd.Item.mBojKJatf9PTYC38] focus spell. Increase the number of Focus Points in your focus pool by 1.</p>\n<p><strong>Dimensional Steps (9th)</strong>: You gain the @UUID[Compendium.pf2e.spells-srd.Item.zjG6NncHyAKqSF7m]<em> </em>focus spell. Increase the number of Focus Points in your focus pool by 1.</p>\n<p><strong>You're Mine (15th)</strong>: You gain the @UUID[Compendium.pf2e.spells-srd.Item.x2LALaHXO7644GQA] focus spell. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.weapon-group-bow.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 10,
+              "value": 1
+            },
+            {
+              "start": 11,
+              "value": 2
+            }
+          ],
+          "field": "actor|level"
+        }
+      }
+    ],
+    "slug": "the-faerie-court",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "otherworldly-patron"
+      ],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "IpeBMMNZ2slTfmNi",
+  "img": "icons/magic/nature/beam-hand-leaves-green.webp",
+  "folder": null,
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708657002285,
+    "modifiedTime": 1708741623231,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!IpeBMMNZ2slTfmNi"
+}

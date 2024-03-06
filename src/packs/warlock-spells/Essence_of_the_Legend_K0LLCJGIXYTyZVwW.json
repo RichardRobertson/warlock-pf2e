@@ -1,0 +1,81 @@
+{
+  "name": "Essence of the Legend",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirement</strong> You are wielding your eldritch weapon, and you have at least one 10th-level spell slot remaining.</p>\n<p>You transform your eldritch weapon into a +3 major striking weapon with which you are trained. In your hands, the weapon gains the backstabber and deadly d6 traits, if it does not already have them. When you Strike a creature that has the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] condition with that weapon, you deal an extra 2d6 precision damage.</p>\n<p>@UUID[Compendium.warlock-pf2e.warlock-effects.Item.hBt5ohN1A47LNbUW]</p>"
+    },
+    "rules": [],
+    "slug": "essence-of-the-legend",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "invocation",
+        "warlock"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "24 hours",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "K0LLCJGIXYTyZVwW",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708141343294,
+    "modifiedTime": 1708785410328,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!K0LLCJGIXYTyZVwW"
+}

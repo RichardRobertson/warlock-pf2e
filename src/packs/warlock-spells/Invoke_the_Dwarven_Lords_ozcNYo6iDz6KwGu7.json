@@ -1,0 +1,81 @@
+{
+  "name": "Invoke the Dwarven Lords",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirement</strong> You have at least one 6th-level or higher spell slot remaining.</p>\n<p>You gain special sight that lets you see even in magical darkness.</p>\n<p>@UUID[Compendium.warlock-pf2e.warlock-effects.Item.j1xz7rt9gSCVjo5S]</p>"
+    },
+    "rules": [],
+    "slug": "invoke-the-dwarven-lords",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "invocation",
+        "warlock"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "ozcNYo6iDz6KwGu7",
+  "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708654401700,
+    "modifiedTime": 1708699377656,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!ozcNYo6iDz6KwGu7"
+}

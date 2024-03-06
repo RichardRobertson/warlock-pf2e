@@ -1,0 +1,68 @@
+{
+  "name": "Essence-Forged",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You learn the @UUID[Compendium.warlock-pf2e.warlock-spells.Item.qZC2FllkOUIwBsEH] invocation, which makes your eldritch weapon a greater threat to your enemies.</p>"
+    },
+    "rules": [],
+    "slug": "essence-forged",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Eldritch Weapon pact boon"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "wHQNqp8ybuIXjATw",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "folder": null,
+  "sort": 4200000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708647817548,
+    "modifiedTime": 1708790296062,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!wHQNqp8ybuIXjATw"
+}

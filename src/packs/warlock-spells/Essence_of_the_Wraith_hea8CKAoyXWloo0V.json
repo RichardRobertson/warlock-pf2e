@@ -1,0 +1,81 @@
+{
+  "name": "Essence of the Wraith",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirement</strong> You have at least one 4th-level or higher spell slot remaining.</p>\n<p>Your energy blast becomes translucent and ghostly, and it can affect material and incorporeal creatures and objects. It gains the effects of the ghost touch property rune.</p>\n<p>@UUID[Compendium.warlock-pf2e.warlock-effects.Item.I6QWV3uoxz0hLeBP]</p>"
+    },
+    "rules": [],
+    "slug": "essence-of-the-wraith",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "invocation",
+        "warlock"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "hea8CKAoyXWloo0V",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708141481728,
+    "modifiedTime": 1708212533650,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!hea8CKAoyXWloo0V"
+}

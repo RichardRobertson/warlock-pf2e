@@ -1,0 +1,85 @@
+{
+  "name": "The Sisters of Fate",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>It is said the Fates were once three mortal sisters who stole their power from an otherworldly being, rather than earn it. Their lack of foresight ultimately led to a cursed existence; they would live forever, blind, save for a single eye they could pass between them to see past, present, and future.</p>\n<p><strong>Anathema</strong> Knowingly leaving something to chance, playing games of chance you cannot win through strategy, or failing to consider every possible outcome when there is time to do so is anathema to the Sisters of Fate.</p>\n<p><strong>Weapon</strong>: You are trained with the shortsword.</p>\n<p><strong>Patron Spells</strong>: <strong>cantrip</strong>: @UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]; <strong>1st</strong>: @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]; <strong>2nd</strong>: @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]; <strong>3rd</strong>: @UUID[Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0]; <strong>4th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.uNsliWpl8Q1JdFcM]; <strong>5th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]; <strong>6th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]; <strong>7th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.AlbpWWN87yGegoAF]; <strong>8th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.4MOew29Z1oCX8O28]; <strong>9th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]</p>\n<p><strong>Bit of Luck (1st)</strong>: The sisters smile upon you. You gain the @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.kJbEGMCqSLZCHuE8] warlock feat.</p>\n<p><strong>Learn from the Past (5th)</strong>: You or an ancestor of yours has lived this life before, giving you insight on what actions to take. Your proficiency rank for Reflex saves increases to expert.</p>\n<p>At 11th level, you proficiency rank for Reflex saves increases to master.</p>\n<p><strong>Watch the Present (9th)</strong>: You can, at all times, see the potential outcome of the immediate situation, which gives you the upper hand when watching for trouble. Your proficiency rank for Perception increases to master.</p>\n<p><strong>Glimpse the Future (15th)</strong>: You notice subtle fluctuations in events that have yet to transpire. Your proficiency rank for Perception increases to legendary.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.weapon-base-shortsword.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 10,
+              "value": 1
+            },
+            {
+              "start": 11,
+              "value": 2
+            }
+          ],
+          "field": "actor|level"
+        }
+      }
+    ],
+    "slug": "the-sisters-of-fate",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "otherworldly-patron"
+      ],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "WIKotW3vSzSP7cXs",
+  "img": "icons/commodities/cloth/thread-and-needle.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708739782402,
+    "modifiedTime": 1708741551557,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!WIKotW3vSzSP7cXs"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Channel Power",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> Your last action was a successful Strike with your energy blast, and you have at least one 6th-level or higher spell slot remaining.</p>\n<p>The force of your blast drives your enemy away. You automatically Shove the target 5 feet or cause it to become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] until the start of your next turn. The target chooses whether to be moved or become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]. If it chooses to be moved, you choose the direction. If the Shove would cause it to hit a solid object, enter a square of difficult terrain, or enter another creature's space, it must become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] instead of being moved.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You automatically Shove the target up to 10 feet away from you and cause it to become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] until the start of your next turn. It does not get a choice.</p>"
+    },
+    "rules": [],
+    "slug": "channel-power",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "invocation",
+        "warlock"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "h9q46BmfzvOC0egH",
+  "img": "icons/magic/control/energy-stream-link-teal.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708134978443,
+    "modifiedTime": 1708654302105,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!h9q46BmfzvOC0egH"
+}

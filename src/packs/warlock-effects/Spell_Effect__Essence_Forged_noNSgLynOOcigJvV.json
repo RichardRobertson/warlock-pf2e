@@ -1,0 +1,799 @@
+{
+  "name": "Spell Effect: Essence-Forged",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You transform your eldritch weapon into a +1 weapon with which you are trained. In your hands, the weapon gains the effect of one 4th-level or lower property rune. When you Strike a creature that has the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] condition with that weapon, you deal an extra [[/r 1d6[precision]]] precision damage.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> The weapon becomes a +2 greater striking weapon with which you are trained instead, and the rune can be 12th-level or lower.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "PF2E.WeaponPropertyRune.fanged.Name",
+            "value": "fanged"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.authorized.Name",
+            "value": "authorized"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.crushing.Name",
+            "value": "crushing"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.underwater.Name",
+            "value": "underwater"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.kinWarding.Name",
+            "value": "kin-warding"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.returning.Name",
+            "value": "returning"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.merciful.Name",
+            "value": "merciful"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.ghostTouch.Name",
+            "value": "ghost-touch"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.bane.Name",
+            "value": "bane"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.earthbinding.Name",
+            "value": "earthbinding",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.cunning.Name",
+            "value": "cunning",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.hooked.Name",
+            "value": "hooked",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.disrupting.Name",
+            "value": "disrupting",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.pacifying.Name",
+            "value": "pacifying",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.fearsome.Name",
+            "value": "fearsome",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.demolishing.Name",
+            "value": "demolishing",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.hauling.Name",
+            "value": "hauling",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.shifting.Name",
+            "value": "shifting",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.energizing.Name",
+            "value": "energizing",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.conducting.Name",
+            "value": "conducting",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.wounding.Name",
+            "value": "wounding",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.called.Name",
+            "value": "called",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.deathdrinking.Name",
+            "value": "deathdrinking",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.flurrying.Name",
+            "value": "flurrying",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.rooting.Name",
+            "value": "rooting",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterFanged.Name",
+            "value": "greater-fanged",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.giantKilling.Name",
+            "value": "giant-killing",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.bloodbane.Name",
+            "value": "bloodbane",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.corrosive.Name",
+            "value": "corrosive",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.flaming.Name",
+            "value": "flaming",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.frost.Name",
+            "value": "frost",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.shock.Name",
+            "value": "shock",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.thundering.Name",
+            "value": "thundering",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterCrushing.Name",
+            "value": "greater-crushing",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.ashen.Name",
+            "value": "ashen",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.coating.Name",
+            "value": "coating",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.extending.Name",
+            "value": "extending",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.grievous.Name",
+            "value": "grievous",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.swarming.Name",
+            "value": "swarming",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.anchoring.Name",
+            "value": "anchoring",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.impactful.Name",
+            "value": "impactful",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.serrating.Name",
+            "value": "serrating",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.hopeful.Name",
+            "value": "hopeful",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterHauling.Name",
+            "value": "greater-hauling",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.holy.Name",
+            "value": "holy",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterRooting.Name",
+            "value": "greater-rooting",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.unholy.Name",
+            "value": "unholy",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.brilliant.Name",
+            "value": "brilliant",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterFearsome.Name",
+            "value": "greater-fearsome",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.dancing.Name",
+            "value": "dancing",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.spellStoring.Name",
+            "value": "spell-storing",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterBloodbane.Name",
+            "value": "greater-bloodbane",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterExtending.Name",
+            "value": "greater-extending",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.keen.Name",
+            "value": "keen",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterDisrupting.Name",
+            "value": "greater-disrupting",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.majorFanged.Name",
+            "value": "major-fanged",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterGiantKilling.Name",
+            "value": "greater-giant-killing",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterCorrosive.Name",
+            "value": "greater-corrosive",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterFlaming.Name",
+            "value": "greater-flaming",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterFrost.Name",
+            "value": "greater-frost",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.majorRooting.Name",
+            "value": "major-rooting",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterShock.Name",
+            "value": "greater-shock",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterThundering.Name",
+            "value": "greater-thundering",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.ancestralEchoing.Name",
+            "value": "ancestral-echoing",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.bloodthirsty.Name",
+            "value": "bloodthirsty",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterAshen.Name",
+            "value": "greater-ashen",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.Actor.Speed.Label",
+            "value": "speed",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterImpactful.Name",
+            "value": "greater-impactful",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.vorpal.Name",
+            "value": "vorpal",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterAnchoring.Name",
+            "value": "greater-anchoring",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterBrilliant.Name",
+            "value": "greater-brilliant",
+            "predicate": [
+              "feat:essence-of-the-legend"
+            ]
+          }
+        ],
+        "flag": "spell-effect-essence-forged-rune",
+        "prompt": "PF2E.SpecificRule.Prompt.Rune"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "eldritch-weapon-damage",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "predicate": [
+          "target:condition:off-guard",
+          {
+            "not": "self:effect:essence-of-the-legend"
+          }
+        ],
+        "category": "precision"
+      },
+      {
+        "key": "WeaponPotency",
+        "selector": "eldritch-weapon-attack",
+        "value": {
+          "brackets": [
+            {
+              "end": 5,
+              "value": 1
+            },
+            {
+              "start": 6,
+              "value": 2
+            }
+          ],
+          "field": "item|level"
+        },
+        "label": "PF2E.RuleElement.WeaponPotency"
+      },
+      {
+        "key": "Striking",
+        "selector": "eldritch-weapon-damage",
+        "value": 2,
+        "predicate": [
+          {
+            "gte": [
+              "item|level",
+              6
+            ]
+          }
+        ],
+        "label": "PF2E.RuleElement.Striking"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:slug:eldritch-weapon"
+        ],
+        "mode": "add",
+        "property": "property-runes",
+        "value": "{item|flags.pf2e.rulesSelections.spell-effect-essence-forged-rune}"
+      }
+    ],
+    "slug": "spell-effect-essence-forged",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "duration": {
+      "value": 24,
+      "unit": "hours",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "noNSgLynOOcigJvV",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708137009917,
+    "modifiedTime": 1708786170576,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!noNSgLynOOcigJvV"
+}

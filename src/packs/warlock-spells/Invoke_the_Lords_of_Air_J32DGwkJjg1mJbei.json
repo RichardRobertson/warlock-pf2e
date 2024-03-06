@@ -1,0 +1,82 @@
+{
+  "name": "Invoke the Lords of Air",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirement</strong> You have at least one 4th-level or higher spell slot remaining.</p>\n<p>You gain the effects of a 1st-level @UUID[Compendium.pf2e.spells-srd.Item.LvezN4a3kYf1OHMg] spell or a 3rd-level @UUID[Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo]<em> </em>spell.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> You can also choose to gain the effects of a 4th-level @UUID[Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8]<em> </em>spell.</p>"
+    },
+    "rules": [],
+    "slug": "invoke-the-lords-of-air",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "air",
+        "concentrate",
+        "cantrip",
+        "invocation",
+        "warlock"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "J32DGwkJjg1mJbei",
+  "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708209015895,
+    "modifiedTime": 1708651257848,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!J32DGwkJjg1mJbei"
+}

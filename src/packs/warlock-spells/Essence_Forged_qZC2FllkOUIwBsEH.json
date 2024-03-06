@@ -1,0 +1,81 @@
+{
+  "name": "Essence-Forged",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirement</strong> You are wielding your eldritch weapon, and you have at least one 2nd-level or higher spell slot remaining.</p>\n<p>You transform your eldritch weapon into a +1 weapon with which you are trained. In your hands, the weapon gains the effect of one 4th-level or lower property rune. When you Strike a creature that has the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] condition with that weapon, you deal an extra [[/r 1d6[precision]]] precision damage.</p>\n<p>@UUID[Compendium.warlock-pf2e.warlock-effects.Item.noNSgLynOOcigJvV]</p>\n<hr />\n<p><strong>Heightened (6th)</strong> The weapon becomes a +2 greater striking weapon with which you are trained instead, and the rune can be 12th-level or lower.</p>"
+    },
+    "rules": [],
+    "slug": "essence-forged",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "invocation",
+        "warlock"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "24 hours",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "qZC2FllkOUIwBsEH",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708135534854,
+    "modifiedTime": 1708656735726,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!qZC2FllkOUIwBsEH"
+}

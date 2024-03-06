@@ -1,0 +1,64 @@
+{
+  "name": "Occult Spellcasting",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your patron has deemed you worthy of the occult magic you now channel. You can cast spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells. Because you're a warlock, you rely on all components of a spell to cast it properly. When you Cast a Spell with one or two components, you can add a material component to that spell to also Cast a Invocation (see below).</p>\n<p>Each day, you can cast up to two 1st-level spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.</p>\n<p>As you increase in level as a warlock, your number of spells per day increases, as does the highest level of spells you can cast, as shown on Table: Warlock Spells per Day.</p>\n<p>Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key ability is Charisma, your spell attack rolls and spell DCs use your Charisma modifier.</p>\n<h3>Heightening Spells</h3>\n<p>When you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell's level to match the spell slot. You must have a spell in your spell repertoire at the level you want to cast in order to heighten it to that level. Many spells have specific improvements when they are heightened to certain levels. The Signature Spells feat lets you heighten certain spells freely.</p>\n<h3>Cantrips</h3>\n<p>Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is automatically heightened to half your level rounded up, which equals the highest level of spell you can cast as a warlock. For example, as a 1st-level warlock, your cantrips are 1st-level spells, and as a 5th-level warlock, your cantrips are 3rd-level spells.</p>\n<p>You learn the @UUID[Compendium.warlock-pf2e.warlock-spells.Item.QEkox47jJe0zqaEV] cantrip, which acts as a ranged weapon with which you can attack your enemies.</p>"
+    },
+    "rules": [],
+    "slug": "occult-spellcasting",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "wfKiZxlVvTYXAzxH",
+  "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+  "folder": null,
+  "sort": 2400000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708094564876,
+    "modifiedTime": 1708786958797,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!wfKiZxlVvTYXAzxH"
+}

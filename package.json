@@ -1,0 +1,21 @@
+{
+  "name": "warlock-pf2e",
+  "version": "1.0.0",
+  "description": "Warlock class for Pathfinder Second Edition system in Foundry VTT from The Faithful Few &copy; 2019, Samurai Sheepdog; Author: Kevin Glusing via OGL.",
+  "private": true,
+  "scripts": {
+    "extract": "node extract.mjs",
+    "compile": "node compile.mjs",
+    "build": "node build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RichardRobertson/warlock-pf2e"
+  },
+  "author": "Richard Robertson",
+  "license": "MIT",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.2",
+    "archiver": "^6.0.1"
+  }
+}

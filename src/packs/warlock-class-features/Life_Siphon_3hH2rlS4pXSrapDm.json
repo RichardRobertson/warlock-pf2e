@@ -1,0 +1,73 @@
+{
+  "name": "Life Siphon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain the @UUID[Compendium.pf2e.spells-srd.Item.zvvHOQV78WKUB33l] focus spell. Increase the number of Focus Points in your focus pool by 1. When you Cast @UUID[Compendium.pf2e.spells-srd.Item.zvvHOQV78WKUB33l], you also gain temporary Hit Points equal to 3 + your Constitution modifier that last one minute.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "text": "When you Cast @UUID[Compendium.pf2e.spells-srd.Item.zvvHOQV78WKUB33l], you also gain temporary Hit Points equal to 3 + your Constitution modifier that last one minute. @UUID[Compendium.warlock-pf2e.warlock-effects.Item.fRL9y92UvqrdKAdm]",
+        "selector": "spell-healing",
+        "predicate": [
+          "item:slug:life-siphon"
+        ]
+      }
+    ],
+    "slug": "life-siphon",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "3hH2rlS4pXSrapDm",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708780037308,
+    "modifiedTime": 1708869369710,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!3hH2rlS4pXSrapDm"
+}

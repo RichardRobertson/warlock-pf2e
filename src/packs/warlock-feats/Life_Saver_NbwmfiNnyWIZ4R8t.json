@@ -1,0 +1,87 @@
+{
+  "name": "Life Saver",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Undying Masters know of your fight against undeath. You gain the @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.MU7OT2attY4nmt3M] warlock feat. If you commit acts anathema to the Undying Masters, you lose all feats and abilities requiring that patron but retain your other warlock feats and abilities.</p>\n<p>If you gained @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.MU7OT2attY4nmt3M] as a pact feature, you can spend 1 Focus Point as a reaction when you Cast that Spell on a dying creature to Reduce the target's wounded condition by 1.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.warlock-pf2e.warlock-actions.Item.zixSDVnpTcXBlpQD",
+        "predicate": [
+          "feat:stabilize"
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.MU7OT2attY4nmt3M",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false,
+        "predicate": [
+          {
+            "not": "feat:stabilize"
+          }
+        ]
+      }
+    ],
+    "slug": "life-saver",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "healing",
+        "holy",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "NbwmfiNnyWIZ4R8t",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "folder": null,
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708647042840,
+    "modifiedTime": 1708790296062,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!NbwmfiNnyWIZ4R8t"
+}

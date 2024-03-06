@@ -1,0 +1,85 @@
+{
+  "name": "The Undying Masters",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Undying Masters are not living, nor are they undead. They exist beyond such mortal concepts, and they beckon any who will learn from them to do the same. Sometimes, warlocks following this patron are referred to, however incorrectly, as necromancers. In truth, they hold as much disdain for such beings as they do clerics.</p>\n<p><strong>Anathema</strong> Controlling undead, raising undead, or failing to defeat an undead not controlled by an ally of yours, is anathema to the Undying Masters. You can work with an ally who controls undead, but you must actively avoid fighting alongside an undead creature unless failing to do so would kill you or an ally.</p>\n<p><strong>Weapon</strong>: You are trained with the scythe.</p>\n<p><strong>Patron Spells cantrip</strong>: @UUID[Compendium.pf2e.spells-srd.Item.kcelf6IHl3L9VXXg]; <strong>1st</strong>: @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]; <strong>2nd</strong>: @UUID[Compendium.pf2e.spells-srd.Item.rthC6dGm3nNrt1xN]; <strong>3rd</strong>: @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]; <strong>4th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.FM3SmEW8N1FCRjqt]; <strong>5th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]; <strong>6th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.fd31tAHSSGXyOxW6]; <strong>7th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.0jadeyQIItIuRgeH]; <strong>8th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.M0jQlpQYUr0pp2Sv]; <strong>9th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.fkDeKktdmbeplYRY]</p>\n<p><strong>Stabilize (1st)</strong>: You can stave off even your own death, for a time. You gain the @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.MU7OT2attY4nmt3M] warlock feat. If you have at least 1 Focus Point when you are reduced to 0 Hit Points, you spend that Focus Point as a free action to automatically Cast @UUID[Compendium.pf2e.spells-srd.Item.SnjhtQYexDtNDdEg] on yourself.</p>\n<p><strong>Unending Breath (5th)</strong>: Your proficiency rank in Fortitude saves increases to expert. You can hold your breath for a number of rounds equal to 5 + your level + your Constitution modifier. When you spend a Focus Point, you can hold it for up to 10 minutes instead. Increase the number of Focus Points in your focus pool by 1.</p>\n<p>At 9th level, your proficiency rank in Fortitude saves increases to master. When you roll a success at a Fortitude save, you get a critical success instead.</p>\n<p><strong>Life Siphon (9th)</strong>: You gain the @UUID[Compendium.pf2e.spells-srd.Item.zvvHOQV78WKUB33l] focus spell. Increase the number of Focus Points in your focus pool by 1. When you Cast @UUID[Compendium.pf2e.spells-srd.Item.zvvHOQV78WKUB33l], you also gain temporary Hit Points equal to 3 + your Constitution modifier that last one minute.</p>\n<p><strong>Timeless Body (15th)</strong>: You cease aging. In addition, you gain a +2 status bonus to saving throws against poisons and diseases, and you gain resistance to poison damage equal to half your level.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.weapon-base-scythe.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 10,
+              "value": 1
+            },
+            {
+              "start": 11,
+              "value": 2
+            }
+          ],
+          "field": "actor|level"
+        }
+      }
+    ],
+    "slug": "the-undying-masters",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "otherworldly-patron"
+      ],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "BIPbJzw2RXV47zY5",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708741596822,
+    "modifiedTime": 1708780410040,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!BIPbJzw2RXV47zY5"
+}

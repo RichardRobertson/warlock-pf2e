@@ -1,0 +1,59 @@
+{
+  "name": "Bloodlust",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> A creature within 5 feet of you is reduced to 0 Hit Points and dies.</p>\n<p>You gain temporary Hit Points equal to your Constitution modifier (minimum 1). You lose any remaining temporary Hit Points after 1 minute.</p>"
+    },
+    "rules": [],
+    "slug": "bloodlust",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": null,
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.warlock-pf2e.warlock-effects.Item.WEHz0PExk86NJ9Jf",
+      "name": "Bloodlust"
+    }
+  },
+  "_id": "F3gN5l7LOZdz17Me",
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708784688103,
+    "modifiedTime": 1708786024228,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!F3gN5l7LOZdz17Me"
+}

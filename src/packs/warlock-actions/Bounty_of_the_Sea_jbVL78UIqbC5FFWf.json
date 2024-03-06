@@ -1,0 +1,60 @@
+{
+  "name": "Bounty of the Sea",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you are within at least 1 inch of water, you can spend 1 Focus Point and 2 actions with the concentration, healing, and interact traits to gain fast healing 5 for 1 minute. This fast healing ends if you leave the water.</p>"
+    },
+    "rules": [],
+    "slug": "bounty-of-the-sea",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "healing"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.warlock-pf2e.warlock-effects.Item.lltOKTrhzaVHFZkM",
+      "name": "Feat Effect: Bounty of the Sea"
+    }
+  },
+  "_id": "jbVL78UIqbC5FFWf",
+  "img": "icons/magic/water/wave-water-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708868803986,
+    "modifiedTime": 1708869082474,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!jbVL78UIqbC5FFWf"
+}

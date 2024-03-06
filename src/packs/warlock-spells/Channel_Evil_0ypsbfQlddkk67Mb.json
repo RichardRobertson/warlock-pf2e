@@ -1,0 +1,91 @@
+{
+  "name": "Channel Evil",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements:</strong> Your last action was a successful Strike with your energy blast, and you have at least one 8th-level or higher spell slot remaining.</p>\n<p>You speak a word so foul it enervates your target. The target must attempt a Fortitude save.</p>\n<ul>\n<li><strong>Critical Success</strong> The target is unaffected.</li>\n<li><strong>Success</strong> If the target is already drained, its condition increases by 1. Otherwise, it is unaffected.</li>\n<li><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR].</li>\n<li><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR].</li>\n</ul>"
+    },
+    "rules": [],
+    "slug": "channel-evil",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "death",
+        "invocation",
+        "warlock"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "up to 1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "damage": {}
+    },
+    "ritual": null
+  },
+  "_id": "0ypsbfQlddkk67Mb",
+  "img": "icons/magic/control/energy-stream-link-teal.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708132854388,
+    "modifiedTime": 1708655497644,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!0ypsbfQlddkk67Mb"
+}

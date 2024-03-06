@@ -1,0 +1,109 @@
+{
+  "name": "Pact Features",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain the pact features for the otherworldly patron you chose for warlock dedication.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false,
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.76mjfgWdn1q9aIez"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.r2LSMa5BaSUKfldN",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.y6PTfbXlJnYG0EzB",
+        "predicate": [
+          {
+            "gte": [
+              "actor|level",
+              9
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.LUke86MZAy5LFw7R",
+        "predicate": [
+          {
+            "gte": [
+              "actor|level",
+              15
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      }
+    ],
+    "slug": "pact-features",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Warlock Archetype"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "UsayGCC1fd7JbyCn",
+  "img": "icons/magic/control/debuff-energy-hold-pink.webp",
+  "folder": null,
+  "sort": 5000000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708787036671,
+    "modifiedTime": 1708790296062,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!UsayGCC1fd7JbyCn"
+}

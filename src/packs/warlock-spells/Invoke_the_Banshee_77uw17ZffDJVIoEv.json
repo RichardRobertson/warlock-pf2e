@@ -1,0 +1,105 @@
+{
+  "name": "Invoke the Banshee",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirement</strong> You have at least one 3rd-level or higher spell slot remaining.</p>\n<p>You emit the ear-piercing shriek of a banshee, which can shatter objects. You deal 2d10 sonic damage to the target, ignoring an object's Hardness if it is 4 or lower. A creature must attempt a Fortitude save</p>\n<ul>\n<li><strong>Critical Success</strong> The creature is unaffected.</li>\n<li><strong>Success</strong> The creature takes half damage.</li>\n<li><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR] for 1 round.</li>\n<li><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR] and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix] for 1 minute.</li>\n</ul>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10, and the Hardness the spell ignores increases by 2.</p>"
+    },
+    "rules": [],
+    "slug": "invoke-the-banshee",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "invocation",
+        "sonic",
+        "warlock"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature or unattended object"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "uQEw2qhATSPSvGER": {
+        "formula": "2d10",
+        "kinds": [
+          "damage"
+        ],
+        "type": "sonic",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "uQEw2qhATSPSvGER": "1d10"
+      }
+    }
+  },
+  "_id": "77uw17ZffDJVIoEv",
+  "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708141844586,
+    "modifiedTime": 1708654502178,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!77uw17ZffDJVIoEv"
+}

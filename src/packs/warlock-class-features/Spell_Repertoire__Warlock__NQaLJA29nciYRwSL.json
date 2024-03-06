@@ -1,0 +1,64 @@
+{
+  "name": "Spell Repertoire (Warlock)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The collection of spells you can cast is called your spell repertoire. At 1st level, you learn one 1st-level spell of your choice and four cantrips of your choice, as well as an additional spell and cantrip from your otherworldly patron (see below). You choose these from the common spells from the occult list, or from other occult spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell level.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see Table: Warlock Spells per Day), you add a spell of the same level to your spell repertoire. When you gain access to a new level of spells, your first new spell is always your patron spell, but you can choose the other spells you gain.</p>\n<p>At 2nd level, you select another 1st-level spell; at 3rd level, you gain a new patron spell and one other 2nd-level spell, and so on. When you add spells, you might choose a higher-level version of a spell you already have so that you can cast a heightened version of that spell.</p>\n<p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.</p>\n<h5>Table: Warlock Spells Per Day</h5>\n<table style=\"text-align:center\">\n<thead>\n<tr>\n<th>Your Level</th>\n<th>Cantrips</th>\n<th>1st</th>\n<th>2nd</th>\n<th>3rd</th>\n<th>4th</th>\n<th>5th</th>\n<th>6th</th>\n<th>7th</th>\n<th>8th</th>\n<th>9th</th>\n<th>10th</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>5</td>\n<td>2</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>2</td>\n<td>5</td>\n<td>3</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>3</td>\n<td>5</td>\n<td>3</td>\n<td>2</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>4</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>5</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>6</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>7</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>8</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>9</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>10</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>11</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>12</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>13</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>14</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>15</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>16</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>17</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>18</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>19</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1<sup>1</sup></td>\n</tr>\n<tr>\n<td>20</td>\n<td>5</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1<sup>1</sup></td>\n</tr>\n</tbody>\n</table>\n<p><sup>1</sup>: @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.8FPCxz1Xs1qU7jOl] class feature gives you a 10th-level spell slot that works a bit differently from other spell slots.</p>"
+    },
+    "rules": [],
+    "slug": "spell-repertoire-warlock",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "NQaLJA29nciYRwSL",
+  "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+  "folder": null,
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708095103146,
+    "modifiedTime": 1708786973043,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!NQaLJA29nciYRwSL"
+}

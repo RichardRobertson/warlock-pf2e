@@ -1,0 +1,88 @@
+{
+  "name": "Advanced Pact",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain one warlock feat. For the purpose of meeting its prerequisites, your warlock level is equal to half your character level.</p>\n<p><strong>Special</strong> You can select this feat more than once. Each time you select it, you gain another warlock feat.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:category:class",
+            "item:trait:warlock"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "advancedPact",
+        "key": "ChoiceSet",
+        "prompt": "Select a class feat at half your level."
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.advancedPact}",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false
+      }
+    ],
+    "slug": "advanced-pact",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Basic Pact"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "epfULqr9EW5odE61",
+  "img": "icons/magic/control/debuff-energy-hold-pink.webp",
+  "folder": null,
+  "sort": 5200000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708787217426,
+    "modifiedTime": 1708790296062,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!epfULqr9EW5odE61"
+}

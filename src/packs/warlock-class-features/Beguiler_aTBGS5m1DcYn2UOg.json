@@ -1,0 +1,64 @@
+{
+  "name": "Beguiler",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Choose @UUID[Compendium.pf2e.spells-srd.Item.KMFRKzNCq7hVNH7H] or @UUID[Compendium.pf2e.spells-srd.Item.DU5daB09xwfE1y38]. You gain that spell as a warlock focus spell, and a focus pool of 1 Focus Point.</p>"
+    },
+    "rules": [],
+    "slug": "beguiler",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "aTBGS5m1DcYn2UOg",
+  "img": "icons/magic/nature/beam-hand-leaves-green.webp",
+  "folder": null,
+  "sort": 5700000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708637523862,
+    "modifiedTime": 1708790296062,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!aTBGS5m1DcYn2UOg"
+}

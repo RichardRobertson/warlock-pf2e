@@ -1,0 +1,60 @@
+{
+  "name": "Fiendish Luck",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Once per minute, when you fail an attack roll, Perception check, saving throw, or skill check, you can reroll the triggering check as a reaction with the fortune trait, but you must use the new result, even if it's worse than your first roll.</p>"
+    },
+    "rules": [],
+    "slug": "fiendish-luck",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fortune",
+        "warlock"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": null,
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT1M"
+    }
+  },
+  "_id": "elVU6xxgjZTCVg1a",
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708781055223,
+    "modifiedTime": 1708786093508,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!elVU6xxgjZTCVg1a"
+}

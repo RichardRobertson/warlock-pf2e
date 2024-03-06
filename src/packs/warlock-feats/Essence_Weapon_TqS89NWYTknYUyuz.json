@@ -1,0 +1,64 @@
+{
+  "name": "Essence Weapon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You learn the @UUID[Compendium.warlock-pf2e.warlock-spells.Item.QEkox47jJe0zqaEV] cantrip. If you have that cantrip already, your energy blast can take the shape of any melee weapon with which you are trained instead.</p>\n<p>If you have the @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.xXy9D20Hy1NlEOU8] pact boon, you can choose with each Strike to use your energy blast as a melee or ranged weapon, and it gains the benefits of eldritch weapon regardless of its shape.</p>"
+    },
+    "rules": [],
+    "slug": "essence-weapon",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "TqS89NWYTknYUyuz",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "folder": null,
+  "sort": 2600000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708638820569,
+    "modifiedTime": 1708790296062,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!TqS89NWYTknYUyuz"
+}

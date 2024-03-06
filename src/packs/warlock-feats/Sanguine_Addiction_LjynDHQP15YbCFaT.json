@@ -1,0 +1,76 @@
+{
+  "name": "Sanguine Addiction",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Council of Fiends recognizes your willingness to observe a clean kill. You gain the @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.aohPQSzwdsysuMWX] warlock feat. If you commit acts anathema to the Council of Fiends, you lose all feats and abilities requiring that patron but retain your other warlock feats and abilities.</p>\n<p>If you gained @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.aohPQSzwdsysuMWX] as a pact feature, it triggers when any creature within 60 feet of you that you can see is reduced to 0 Hit Points and dies.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.aohPQSzwdsysuMWX",
+        "predicate": [
+          {
+            "not": "feat:bloodlust"
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false
+      }
+    ],
+    "slug": "sanguine-addiction",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "LjynDHQP15YbCFaT",
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "folder": null,
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708647254106,
+    "modifiedTime": 1708790296062,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!LjynDHQP15YbCFaT"
+}

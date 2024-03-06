@@ -1,0 +1,71 @@
+{
+  "name": "Summon Entity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain @UUID[Compendium.pf2e.spells-srd.Item.i1TvBID5QLyXrUCa], adding it to your spell repertoire as a 5th-level occult spell. You can choose it as a signature spell.</p>\n<p>An aberration you summon with @UUID[Compendium.pf2e.spells-srd.Item.i1TvBID5QLyXrUCa] gains a +1 status bonus to all checks (this also applies to the creature's DCs, including its AC) for the duration of its summoning, up to 1 minute.</p>"
+    },
+    "rules": [],
+    "slug": "summon-entity",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Commanding Leash pact boon"
+        },
+        {
+          "value": "Great Old Ones patron"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "veb0w7r2l1bdEAY8",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "folder": null,
+  "sort": 4000000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708653838380,
+    "modifiedTime": 1708790296062,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!veb0w7r2l1bdEAY8"
+}

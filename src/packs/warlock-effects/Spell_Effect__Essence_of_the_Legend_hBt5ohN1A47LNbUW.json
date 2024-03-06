@@ -1,0 +1,96 @@
+{
+  "name": "Spell Effect: Essence of the Legend",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You transform your eldritch weapon into a +3 major striking weapon with which you are trained. In your hands, the weapon gains the backstabber and deadly d6 traits, if it does not already have them. When you Strike a creature that has the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] condition with that weapon, you deal an extra 2d6 precision damage.</p>"
+    },
+    "rules": [
+      {
+        "key": "WeaponPotency",
+        "selector": "eldritch-weapon-attack",
+        "value": 3,
+        "label": "PF2E.RuleElement.WeaponPotency"
+      },
+      {
+        "key": "Striking",
+        "selector": "eldritch-weapon-damage",
+        "value": 3,
+        "label": "PF2E.RuleElement.Striking"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "eldritch-weapon-damage",
+        "diceNumber": 2,
+        "dieSize": "d6",
+        "predicate": [
+          "target:condition:off-guard"
+        ],
+        "category": "precision"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:slug:eldritch-weapon"
+        ],
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "deadly-d6"
+      }
+    ],
+    "slug": "spell-effect-essence-of-the-legend",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "hBt5ohN1A47LNbUW",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708656574491,
+    "modifiedTime": 1708786175652,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!hBt5ohN1A47LNbUW"
+}

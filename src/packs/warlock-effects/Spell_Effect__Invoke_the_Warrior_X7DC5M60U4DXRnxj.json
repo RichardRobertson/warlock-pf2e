@@ -1,0 +1,157 @@
+{
+  "name": "Spell Effect: Invoke the Warrior",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You become trained in all martial weapons and light armor. If you were already trained in all martial weapons, you become trained in one advanced weapon of your choice instead. If you were already trained in light armor, you become trained in medium armor instead.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Your proficiency increases to expert. When you Cast this Spell, you also transform your clothing into a suit of armor with which you're proficient for the duration.</p>\n<p><strong>Heightened (8th)</strong> Your proficiency increases to master. If you were already a master in both light and medium armor, you become a master in heavy armor.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.martial.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 3,
+              "value": 1
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "value": 2
+            },
+            {
+              "start": 8,
+              "value": 3
+            }
+          ],
+          "field": "item|level"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.heavy.rank",
+        "value": {
+          "brackets": [
+            {
+              "start": 8,
+              "value": "3*min(1,@actor.system.proficiencies.defenses.light.rank,@actor.system.proficiencies.defenses.medium.rank)"
+            }
+          ],
+          "field": "item|level"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.medium.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 3,
+              "value": "1*min(1,@actor.system.proficiencies.defenses.light.rank)"
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "value": "2*min(1,@actor.system.proficiencies.defenses.light.rank)"
+            },
+            {
+              "start": 8,
+              "value": "3*min(1,@actor.system.proficiencies.defenses.light.rank)"
+            }
+          ],
+          "field": "item|level"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.light.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 3,
+              "value": 1
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "value": 2
+            },
+            {
+              "start": 8,
+              "value": 3
+            }
+          ],
+          "field": "item|level"
+        }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9",
+        "predicate": [
+          "feature:master-spellcaster"
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false
+      }
+    ],
+    "slug": "spell-effect-invoke-the-warrior",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 8,
+      "unit": "hours",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "X7DC5M60U4DXRnxj",
+  "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708531866810,
+    "modifiedTime": 1708786392437,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!X7DC5M60U4DXRnxj"
+}

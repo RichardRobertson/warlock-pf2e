@@ -1,0 +1,87 @@
+{
+  "name": "The Council of Fiends",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Council of Fiends was formed when a small group of demon lords learned they could garner more power through making pacts similar to devils and their contracts. Now, not only have they bastardized that practice, but they enjoy the ire it draws from their lawful counterparts.</p>\n<p><strong>Anathema</strong> Actively following laws you don't personally believe in or failing to put an enemy down after it has served its purpose is anathema to the Council of Fiends.</p>\n<p><strong>Weapon</strong>: You are trained with the scimitar.</p>\n<p><strong>Patron Spells cantrip</strong>: @UUID[Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf]; <strong>1st</strong>: @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]; <strong>2nd</strong>: @UUID[Compendium.pf2e.spells-srd.Item.pZTqGY1MLRjgKasV]; <strong>3rd</strong>: @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]; <strong>4th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]; <strong>5th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.E3X2RbzWHCdz7gsk]; <strong>6th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.5BbU1V6wGSGbrmRD]; <strong>7th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.XS7Wyh5YC0NWeWyB]; <strong>8th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.BKIet436snMNcnez]; <strong>9th</strong>: @UUID[Compendium.pf2e.spells-srd.Item.10VcmSYNBrvBphu1]</p>\n<p><strong>Bloodlust (1st)</strong>: You draw power from the destruction left in the wake of battle. You gain the @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.aohPQSzwdsysuMWX] warlock feat.</p>\n<p><strong>Fiendish Luck (5th)</strong>: Once per minute, when you fail an attack roll, Perception check, saving throw, or skill check, you can reroll the triggering check as a reaction with the fortune trait, but you must use the new result, even if it's worse than your first roll.</p>\n<p>At 15th level, and again at 19th level, choose Perception, Fortitude, or Reflex. Your proficiency rank for that choice increases to master. If you chose Fortitude or Reflex, when you roll a successful save, you get a critical success instead.</p>\n<p><strong>Demonic Resistance (9th)</strong>: You gain resistance equal to your Constitution modifier (minimum 1) to acid, cold, electricity, fire, and poison.</p>\n<p><strong>Abyssal Wrath (15th)</strong>: You gain the @UUID[Compendium.pf2e.spells-srd.Item.crF4g9jRN1y84MSD] focus spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.weapon-base-scimitar.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 10,
+              "value": 1
+            },
+            {
+              "start": 11,
+              "value": 2
+            }
+          ],
+          "field": "actor|level"
+        }
+      }
+    ],
+    "slug": "the-council-of-fiends",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "otherworldly-patron"
+      ],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1707787646656,
+    "modifiedTime": 1708739815303,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_id": "573BAgNdeZanawFm",
+  "sort": 200000,
+  "_key": "!items!573BAgNdeZanawFm"
+}

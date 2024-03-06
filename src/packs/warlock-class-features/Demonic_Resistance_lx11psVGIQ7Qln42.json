@@ -1,0 +1,78 @@
+{
+  "name": "Demonic Resistance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain resistance equal to your Constitution modifier (minimum 1) to acid, cold, electricity, fire, and poison.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": [
+          "acid",
+          "cold",
+          "electricity",
+          "fire",
+          "poison"
+        ],
+        "value": "max(1,@actor.abilities.con.mod)"
+      }
+    ],
+    "slug": "demonic-resistance",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1707875614775,
+    "modifiedTime": 1708705175401,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_id": "lx11psVGIQ7Qln42",
+  "sort": 700000,
+  "_key": "!items!lx11psVGIQ7Qln42"
+}

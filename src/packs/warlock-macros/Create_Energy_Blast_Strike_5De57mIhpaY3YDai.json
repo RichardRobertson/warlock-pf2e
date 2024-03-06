@@ -1,0 +1,25 @@
+{
+  "name": "Create Energy Blast Strike",
+  "type": "script",
+  "_id": "5De57mIhpaY3YDai",
+  "author": "nVjZT7F2ynWB1qYJ",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "scope": "global",
+  "command": "let _actor = actor ?? token?.actor ?? game.user.character;\nif (!_actor) {\n  ui.notifications.error(game.i18n.localize(\"PF2E.ActionsWarning.NoActor\"));\n  return;\n}\ngame.warlockPf2e.actions.createEnergyBlastStrike(_actor);",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708474811155,
+    "modifiedTime": 1708483683074,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!macros!5De57mIhpaY3YDai"
+}

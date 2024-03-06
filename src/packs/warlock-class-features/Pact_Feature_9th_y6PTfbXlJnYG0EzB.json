@@ -1,0 +1,121 @@
+{
+  "name": "Pact Feature 9th",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>At 1st, 5th, 9th, and 15th level, you gain your patron's listed class feature in addition to any other class features you would gain at that level.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:the-council-of-fiends"
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false,
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.lx11psVGIQ7Qln42"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:the-faerie-court"
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false,
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.IRVwKiUGQn5Rx6I3"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:the-great-old-ones"
+        ],
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.mesWuO4RQF5CUFhN",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:the-merciless-sea"
+        ],
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.y6RFkFGGiiAjyZwE",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:the-sisters-of-fate"
+        ],
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.VXZqzEtoEfTqA47h",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:the-undying-masters"
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false,
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.3hH2rlS4pXSrapDm"
+      }
+    ],
+    "slug": "pact-feature-9th",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/control/debuff-energy-hold-pink.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1707876109562,
+    "modifiedTime": 1708789902370,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_id": "y6PTfbXlJnYG0EzB",
+  "sort": 1200000,
+  "_key": "!items!y6PTfbXlJnYG0EzB"
+}

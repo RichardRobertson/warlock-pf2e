@@ -1,0 +1,86 @@
+{
+  "name": "Warlock Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You cast spells like a warlock and gain the Cast a Spell activity. You gain a spell repertoire with two common cantrips from the occult spell list, or any other cantrips you learn or discover.</p>\n<p>You're trained in spell attack rolls and spell DCs for occult spells. Your key spellcasting ability for warlock archetype spells is Charisma, and they are occult warlock spells. You become trained in Occultism; if you were already trained in Occultism, you instead become trained in a skill of your choice.</p>\n<p>Choose an otherworldly patron as you would if you were a warlock. You have that patron for all purposes and become bound by its anathema, but you don't gain any of the other abilities it grants.</p>\n<p><strong>Special</strong> You cannot select another dedication feat until you have gained two other feats from the warlock archetype.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.iOKpBm2cqGa1qOyv",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false
+      }
+    ],
+    "slug": "warlock-dedication",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication",
+        "multiclass"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Charisma +2"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 1
+        }
+      }
+    }
+  },
+  "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708215388828,
+    "modifiedTime": 1708790316768,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_id": "LMiEBqK2tLi3kzlG",
+  "sort": 5100000,
+  "_key": "!items!LMiEBqK2tLi3kzlG"
+}

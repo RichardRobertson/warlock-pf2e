@@ -1,0 +1,105 @@
+{
+  "name": "Eldritch Weapon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Increase your maximum Hit Points by your level. When you conjure your energy blast, it can take the shape of a melee weapon with which you are trained. Choose 1 weapon as your eldritch weapon. You are an expert with this weapon. It gains the backstabber trait. When you Strike a creature that has the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] condition with your eldritch weapon, you deal extra precision damage equal to twice the number of weapon damage dice.</p>\n<p>@UUID[Compendium.warlock-pf2e.warlock-macros.Macro.7QLow5FbWDDvsT4F]</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "hp",
+        "value": "@actor.level"
+      },
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          "item:slug:eldritch-weapon"
+        ],
+        "slug": "eldritch-weapon",
+        "label": "Eldritch Weapon",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "selector": "eldritch-weapon-damage",
+        "slug": "backstabber",
+        "value": "@weapon.system.damage.dice*2"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "eldritch-weapon-damage",
+        "value": 0,
+        "type": "ability",
+        "ability": "cha"
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "eldritch-weapon-damage",
+        "mode": "multiply",
+        "value": 0.5,
+        "predicate": [
+          "ranged"
+        ],
+        "slug": "cha"
+      }
+    ],
+    "slug": "eldritch-weapon",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "pact-boon"
+      ],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "xXy9D20Hy1NlEOU8",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "folder": null,
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708096481808,
+    "modifiedTime": 1708786129366,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!xXy9D20Hy1NlEOU8"
+}

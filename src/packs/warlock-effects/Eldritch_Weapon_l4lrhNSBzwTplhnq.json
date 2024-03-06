@@ -1,0 +1,102 @@
+{
+  "name": "Eldritch Weapon",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you conjure your energy blast, it can take the shape of a melee weapon with which you are trained. Choose 1 weapon as your eldritch weapon. You are an expert with this weapon. It gains the backstabber trait. When you Strike a creature that has the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] condition with your eldritch weapon, you deal extra precision damage equal to twice the number of weapon damage dice.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "filter": [
+            {
+              "gte": [
+                "self:level",
+                "item:level"
+              ]
+            },
+            {
+              "or": [
+                "feat:essence-weapon",
+                "item:melee"
+              ]
+            },
+            {
+              "or": []
+            }
+          ],
+          "itemType": "weapon"
+        },
+        "flag": "weapon"
+      },
+      {
+        "key": "Strike",
+        "damage": {
+          "base": {
+            "damageType": "force"
+          }
+        }
+      }
+    ],
+    "slug": "spell-effect-eldritch-weapon",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1707879394151,
+    "modifiedTime": 1708786181992,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_id": "l4lrhNSBzwTplhnq",
+  "sort": 200000,
+  "_key": "!items!l4lrhNSBzwTplhnq"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Otherworldly Patron",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As a warlock, you are a mortal bound to a greater being to whom you or a loved one has promised your soul through a pact. The most common otherworldly patrons, along with their areas of concern, and the benefits you get for signing a pact with that patron can be found at the end of this section. Your patron grants you greater proficiency in one saving throw, skill, or weapon. If your patron grants training in a weapon is uncommon, you also get access to that weapon.</p>\n<p>Your otherworldly patron also adds spells to your spell list. You learn and can cast these just like you can any spell on the occult spell list, once you can learn spells of their level as a warlock. Some of these spells aren't normally on the occult list, but they're occult spells when you learn them this way.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:otherworldly-patron"
+          ]
+        },
+        "flag": "otherworldlyPatron",
+        "key": "ChoiceSet",
+        "prompt": "Otherworldly Patron"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.otherworldlyPatron}",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false
+      }
+    ],
+    "slug": "otherworldly-patron",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "iOKpBm2cqGa1qOyv",
+  "img": "icons/magic/control/debuff-energy-hold-pink.webp",
+  "folder": null,
+  "sort": 2200000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708094757886,
+    "modifiedTime": 1708702706783,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!iOKpBm2cqGa1qOyv"
+}

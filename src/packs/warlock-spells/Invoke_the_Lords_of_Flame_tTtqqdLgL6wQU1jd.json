@@ -1,0 +1,82 @@
+{
+  "name": "Invoke the Lords of Flame",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirement</strong> You have at least one 5th-level or higher spell slot remaining.</p>\n<p>You tear hellish flame from the Elemental Plane of Fire and bend it to your will, creating a 4th-level @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]effect that you can sustain for up to 1 minute.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> As @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu].</p>"
+    },
+    "rules": [],
+    "slug": "invoke-the-lords-of-flame",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "fire",
+        "invocation",
+        "warlock"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "tTtqqdLgL6wQU1jd",
+  "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708209558593,
+    "modifiedTime": 1708209741371,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!tTtqqdLgL6wQU1jd"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Life Saver",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can spend 1 Focus Point as a reaction when you cast @UUID[Compendium.pf2e.spells-srd.Item.SnjhtQYexDtNDdEg] on a dying creature to Reduce the target's wounded condition by 1.</p>"
+    },
+    "rules": [],
+    "slug": "life-saver",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "healing",
+        "holy",
+        "warlock"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": null,
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "zixSDVnpTcXBlpQD",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708781443243,
+    "modifiedTime": 1708786099701,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!zixSDVnpTcXBlpQD"
+}

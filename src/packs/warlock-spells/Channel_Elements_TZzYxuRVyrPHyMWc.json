@@ -1,0 +1,164 @@
+{
+  "name": "Channel Elements",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> Your last action was a successful Strike with your energy blast, and you have at least one 3rd-level or higher spell slot remaining.</p>\n<p>The ambient power of your blast draws forth elemental energy. Choose acid, cold, fire, or electricity. You deal [[/r 3d6]] damage of that type to the target, plus an additional effect if the Strike was a critical success. The target must attempt a basic Reflex Save.</p>\n<ul>\n<li><strong>Acid</strong> the target's armor (if any) takes [[/r 3d6[acid]]] acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.</li>\n<li><strong>Cold</strong> the target is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] until the end of your next turn.</li>\n<li><strong>Electricity</strong> electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target.</li>\n<li><strong>Fire</strong> [[/r 1d10[fire]]] persistent fire damage.</li>\n</ul>\n<hr />\n<p><strong>Heightened (6th)</strong> The damage ignores the target's resistance.</p>"
+    },
+    "rules": [],
+    "slug": "channel-elements",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "invocation",
+        "warlock"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "overlays": {
+      "xKPWc4aQ7gLzYSTw": {
+        "name": "Channel Elements (Acid)",
+        "system": {
+          "damage": {
+            "QHlDgtIdxuFrjAgX": {
+              "formula": "3d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "acid",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "MJWg304GFCHJ8zXn": {
+        "name": "Channel Elements (Cold)",
+        "system": {
+          "damage": {
+            "vsPGbXhVfYK6cl1f": {
+              "formula": "3d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "cold",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      },
+      "JwmaMHLwZUO9P9RX": {
+        "name": "Channel Elements (Electricity)",
+        "system": {
+          "damage": {
+            "B7QwdCrlCKZ2Q4aG": {
+              "formula": "3d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "electricity",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          }
+        },
+        "sort": 3,
+        "overlayType": "override"
+      },
+      "jN3j9eLNskbXP0zm": {
+        "name": "Channel Elements (Fire)",
+        "system": {
+          "damage": {
+            "Qs8HoK6d0DL2PHo9": {
+              "formula": "3d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "fire",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          }
+        },
+        "sort": 4,
+        "overlayType": "override"
+      }
+    }
+  },
+  "_id": "TZzYxuRVyrPHyMWc",
+  "img": "icons/magic/control/energy-stream-link-teal.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708133580385,
+    "modifiedTime": 1708176965619,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!TZzYxuRVyrPHyMWc"
+}

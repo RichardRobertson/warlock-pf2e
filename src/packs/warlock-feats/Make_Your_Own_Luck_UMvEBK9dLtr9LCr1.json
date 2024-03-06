@@ -1,0 +1,72 @@
+{
+  "name": "Make Your Own Luck",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can intone a request of the Sisters of Fate to protect a willing creature in a pinch. You gain the @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.kJbEGMCqSLZCHuE8] warlock feat. If you commit acts anathema to the Sisters of Fate, you lose all feats and abilities requiring that patron but retain your other warlock feats and abilities.</p>\n<p>If you gained @UUID[Compendium.warlock-pf2e.warlock-class-features.Item.kJbEGMCqSLZCHuE8] as a pact feature, you can target yourself and up to 1 willing creature with a single casting of that spell.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.warlock-pf2e.warlock-class-features.Item.kJbEGMCqSLZCHuE8",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": false
+      }
+    ],
+    "slug": "make-your-own-luck",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fortune",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "UMvEBK9dLtr9LCr1",
+  "img": "icons/commodities/cloth/thread-and-needle.webp",
+  "folder": null,
+  "sort": 2800000,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708647148608,
+    "modifiedTime": 1708790296062,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!UMvEBK9dLtr9LCr1"
+}

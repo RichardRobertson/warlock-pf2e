@@ -1,0 +1,60 @@
+{
+  "name": "Telepath",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Once per day, when an ally you can communicate telepathically with fails a Will save, you can roll your own Will save as a reaction and substitute it for the ally's save. This is a fortune effect.</p>"
+    },
+    "rules": [],
+    "slug": "telepath",
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fortune",
+        "warlock"
+      ]
+    },
+    "publication": {
+      "title": "The Faithful Few &copy; 2019, Samurai Sheepdog",
+      "authors": "Kevin Glusing",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_id": "2EhSunE5zN9a3rVq",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "nVjZT7F2ynWB1qYJ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1708781277361,
+    "modifiedTime": 1708786102649,
+    "lastModifiedBy": "nVjZT7F2ynWB1qYJ"
+  },
+  "_key": "!items!2EhSunE5zN9a3rVq"
+}
