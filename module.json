@@ -5,7 +5,7 @@
   "version": "__VERSION__",
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "12"
   },
   "authors": [
     {

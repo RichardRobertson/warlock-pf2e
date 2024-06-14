@@ -1,6 +1,6 @@
 {
   "name": "warlock-pf2e",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Warlock class for Pathfinder Second Edition system in Foundry VTT from The Faithful Few &copy; 2019, Samurai Sheepdog; Author: Kevin Glusing via OGL.",
   "private": true,
   "scripts": {
