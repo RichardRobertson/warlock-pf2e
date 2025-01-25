@@ -719,15 +719,20 @@
       {
         "key": "Striking",
         "selector": "eldritch-weapon-damage",
-        "value": 2,
-        "predicate": [
-          {
-            "gte": [
-              "item|level",
-              6
-            ]
-          }
-        ],
+        "mode": "upgrade",
+        "value": {
+          "brackets": [
+            {
+              "end": 5,
+              "value": 0
+            },
+            {
+              "start": 6,
+              "value": 2
+            }
+          ],
+          "field": "item|level"
+        },
         "label": "PF2E.RuleElement.Striking"
       },
       {
